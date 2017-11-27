@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Facebook Page Scraper</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  	body{
+  		/*background-color:#3b5998;*/
+        /*background-image: url("static/images/fbback.jpg")*/
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+  		color:white;
+  	}
+  </style>
+</head>
+<body background="/static/images/fbback.jpg">
+
+<div class="container">
+  <h2 align="center" color="white"><img src="static/images/fblogo.png" width=40 height=40> Scraper</h2>
+  <form action="." method="POST">
+    <div class="form-group">
+      <label for="pageid">Facebook Page ID:</label>
+      <input type="text" class="form-control" id="pageid" placeholder="Enter valid Facebook Page id" name="pageid">
+    </div>
+    <div class="form-group">
+      <label for="startdate">Enter Start Date</label>
+      <input type="text" class="form-control" id="startdate" placeholder="YYYY-MM-DD" name="startdate">
+    </div>
+    <div class="form-group">
+      <label for="enddate">Enter End Date</label>
+      <input type="text" class="form-control" id="enddate" placeholder="YYYY-MM-DD" name="enddate">
+    </div>
+    <button type="button" class="btn btn-default" onclick="gotoFB()">Go to Facebook</button>
+    <button type="submit" class="btn btn-default" value="Send">Start Scraping</button>
+  </form>
+</div>
+<script>
+    function gotoFB(){
+        location.href="https://www.facebook.com/"
+    }
+</script>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr>
+
+<div style="color:#FFFFFF">
+<b>Developers</b>: PradeepPai @GaganShetty @RohanSapare
+    <a href="mailto:paipradeep512@gmail.com"><span class="glyphicon glyphicon-envelope"></span></a>
+
+</div>
+
+</body>
+</html>
